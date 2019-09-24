@@ -9,7 +9,7 @@ mkdir -p ~/.vim/autoload/
 mv plug.vim ~/.vim/autoload/plug.vim
 
 echo "Installing .vimrc"
-mv vimrc.cfg ~/.vimrc
+cp vimrc.cfg ~/.vimrc
 
 echo "Downloading color profiles"
 wget https://raw.githubusercontent.com/gosukiwi/vim-atom-dark/master/colors/atom-dark-256.vim
